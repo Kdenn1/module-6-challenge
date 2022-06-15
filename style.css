@@ -15,14 +15,13 @@ body {
 .main-body {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 /*div stylings*/
 
 .city-search {
     background-color: aquamarine;
-    margin-left: 0px;
-    margin-right: 50px;
     height: 400px;
     flex-wrap: wrap;
     border-radius: 5px;
@@ -32,6 +31,13 @@ body {
 }
 .city-search h2 {
     text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.city-search input {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .search-btn {
